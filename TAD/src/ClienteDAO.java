@@ -1,16 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package classes;
 
 import Interfaces.CRUD;
 import java.util.ArrayList;
 
-/**
- *
- * @author elienai.neves
- */
+
 public class ClienteDAO implements CRUD{
     
     private ArrayList<Cliente> clientes = new ArrayList<Cliente>();
